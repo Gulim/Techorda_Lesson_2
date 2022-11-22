@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My information</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        h1{
+            text-align: center;
+        }
+        th, td {
+            background-color: #96D4D4;
+        }
+        body{
+            padding: 24px;
+            display: grid;
+            place-content: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <h1>Меню ресторана "Ромашка"</h1> 
+        <tr>
+          <th rowspan="2" class="first">Кухня</th>
+          <th colspan="4">Холодные блюда</th>
+          <th colspan="4">Горячие блюда</th>
+          <th rowspan="2" colspan="2">Десерты</th>
+        </tr>
+        <tr>
+          <td class="first" colspan="2">Салаты</td>
+          <td class="first" colspan="2">Закуски</td>
+          <td class="first" colspan="2">Первые блюда</td>
+          <td class="first" colspan="2">Вторые блюда</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="first">Русская</td>
+          <td>Винегрет</td>
+          <td>1 750 тг</td>
+          <td>Язык с хреном</td>
+          <td>1 700 тг</td>
+          <td>Щи с квашеной капустой</td>
+          <td>2 341 тг</td>
+          <td>Вареники с картошкой</td>
+          <td>1 500 тг</td>
+          <td>Печеные яблоки с медом</td>
+          <td>550 тг</td>
+        </tr>
+        <tr>
+          <td>Оливье</td>
+          <td>1 295 тг</td>
+          <td>Студень говяжий</td>
+          <td>5 000 тг</td>
+          <td>Рассольник домашний</td>
+          <td>1 068 тг</td>
+          <td>Караси запеченые в сметане</td>
+          <td>6 750 тг</td>
+          <td>Блинчатый пирог</td>
+          <td>1 650 тг</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="first">Испанская</td>
+          <td>Севиче из гребешков</td>
+          <td>3 450 тг</td>
+          <td>Эмпанадас</td>
+          <td>6 950 тг</td>
+          <td>Хлебный суп с чесноком</td>
+          <td>2 300 тг</td>
+          <td>Паэлья с морепродуктами</td>
+          <td>5 400 тг</td>
+          <td>Чуррос</td>
+          <td>1 650 тг</td>
+        </tr>
+        <tr>
+          <td>Фасоль с ветчиной</td>
+          <td>3 000 тг</td>
+          <td>Чанфайна</td>
+          <td>4 500 тг</td>
+          <td>Рыбный суп с манными клецками </td>
+          <td>6 750 тг</td>
+          <td>Тортилья картофельная</td>
+          <td>2 300 тг</td>
+          <td>Бунуэлос</td>
+          <td>2 450 тг</td>
+        </tr>
+        <tr>
+          <td class="first">Французская</td>
+          <td>Вогезский салат</td>
+          <td>2 300 тг</td>
+          <td>Рийет из курицы</td>
+          <td>5 400 тг</td>
+          <td>Баклажанный крем-суп "Ренуар"</td>
+          <td>3 460 тг</td>
+          <td>Картофель огратен</td>
+          <td>5 745 тг</td>
+          <td>Бриоши</td>
+          <td>2 670 тг</td>
+        </tr>
+    </table>
+    <h1>Счёт</h1>
+    <table>
+        <tr>
+          <th>№ п/п</th>
+          <th>Наименование товара</th>
+           <th>Количество</th>
+           <th>Цена</th>
+           <th>Стоимость</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>Оливье</td>
+          <td>1</td>
+          <td>1 295</td>
+          <td>1 295</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Чуррос</td>
+          <td>2</td>
+          <td>1 650</td>
+          <td>3 300</td>
+        </tr>
+        <tr>
+          <td colspan="4" style="text-align:right">ИТОГО:</td>
+          <td>4595,00</td>
+        </tr>
+    </table>
+        
+</body>
+</html>
