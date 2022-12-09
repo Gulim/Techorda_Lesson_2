@@ -1,38 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign in</title>
-    <style>
-
-        body{
-            padding: 24px;
-            display: grid;
-            place-content: center;
-        }
-        h{
-            color: purple;
-        }
-        label{
-            display: block;
-            padding-top: 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Sign in</h1>
-    <form>
-        <label for="email">Enter your email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="pwd">Password:</label>
-        <input type="password" id="pwd" name="pwd" required>
-
-        <button style = "background-color: rgb(241, 108, 108)"="window.open('table.html')">Sign in</button>
-        <button style = "background-color: rgb(192, 220, 225)"="window.open('index.html')">I don't have a acoount</button>
-        <button><a href="table.html">Home</a></button>
-    </form>
-</body>
+    <link rel="stylesheet" href="reg.css" />
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <form action="">
+          <h1>Sign in</h1>
+          <label for="email" id="email">Enter your email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value="**********@gmail.com"
+            required
+          /><br />
+          <label for="pwd" id="pwd">Password:</label>
+          <input type="password" id="pwd" name="pwd" required />
+          <a href="table.html"><input type="submit" value="SIGN IN" /></a>
+          <span><a href="index.html">I don't have an acount</a></span>
+        </form>
+      </div>
+    </main>
+  </body>
 </html>
