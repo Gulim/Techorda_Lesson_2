@@ -5,7 +5,9 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
-
+a{
+  text-decoration: none;
+}
 
 .form-holder .form-content {
   position: relative;

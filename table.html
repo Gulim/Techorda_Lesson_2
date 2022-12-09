@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My information</title>
+    <link rel="stylesheet" href="table.css" />
     <style>
         table, th, td {
             border: 1px solid black;
@@ -13,94 +14,105 @@
         h1{
             text-align: center;
         }
-        th, td {
-            background-color: #96D4D4;
-        }
         body{
             padding: 24px;
             display: grid;
             place-content: center;
         }
+        ul.hr {
+          margin: 0;
+          padding: 4px;
+        }
+        ul.hr li {
+          display: inline;
+        }
     </style>
 </head>
 <body>
-    <table>
-        <h1>Меню ресторана "Ромашка"</h1> 
+  <h1><span class="yellow">Меню ресторана</pan></h1>
+
+    <table class="container">
+      <thead>
         <tr>
-          <th rowspan="2" class="first">Кухня</th>
-          <th colspan="4">Холодные блюда</th>
-          <th colspan="4">Горячие блюда</th>
-          <th rowspan="2" colspan="2">Десерты</th>
+          <th rowspan="2" class="first"><h1>Кухня</h1></th>
+          <th colspan="4"><h1>Холодные блюда</h1></th>
+          <th colspan="4"><h1>Горячие блюда</h1></th>
+          <th rowspan="2" colspan="2"><h1>Десерты</h1></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Кухня</td>
+          <td colspan="2">Салаты</td>
+          <td colspan="2">Закуски</td>
+          <td colspan="2">Первые блюда</td>
+          <td colspan="2">Вторые блюда</td>
+          <td colspan="2">Десерты</td>
         </tr>
         <tr>
-          <td class="first" colspan="2">Салаты</td>
-          <td class="first" colspan="2">Закуски</td>
-          <td class="first" colspan="2">Первые блюда</td>
-          <td class="first" colspan="2">Вторые блюда</td>
+              <td rowspan="2" class="first">Русская</td>
+              <td>Винегрет</td>
+              <td>1 750 тг</td>
+              <td>Язык с хреном</td>
+              <td>1 700 тг</td>
+              <td>Щи с квашеной капустой</td>
+              <td>2 341 тг</td>
+              <td>Вареники с картошкой</td>
+              <td>1 500 тг</td>
+              <td>Печеные яблоки с медом</td>
+              <td>550 тг</td>
         </tr>
         <tr>
-          <td rowspan="2" class="first">Русская</td>
-          <td>Винегрет</td>
-          <td>1 750 тг</td>
-          <td>Язык с хреном</td>
-          <td>1 700 тг</td>
-          <td>Щи с квашеной капустой</td>
-          <td>2 341 тг</td>
-          <td>Вареники с картошкой</td>
-          <td>1 500 тг</td>
-          <td>Печеные яблоки с медом</td>
-          <td>550 тг</td>
+              <td>Оливье</td>
+              <td>1 295 тг</td>
+              <td>Студень говяжий</td>
+              <td>5 000 тг</td>
+              <td>Рассольник домашний</td>
+              <td>1 068 тг</td>
+              <td>Караси запеченые в сметане</td>
+              <td>6 750 тг</td>
+              <td>Блинчатый пирог</td>
+              <td>1 650 тг</td>
         </tr>
         <tr>
-          <td>Оливье</td>
-          <td>1 295 тг</td>
-          <td>Студень говяжий</td>
-          <td>5 000 тг</td>
-          <td>Рассольник домашний</td>
-          <td>1 068 тг</td>
-          <td>Караси запеченые в сметане</td>
-          <td>6 750 тг</td>
-          <td>Блинчатый пирог</td>
-          <td>1 650 тг</td>
+              <td rowspan="2" class="first">Испанская</td>
+              <td>Севиче из гребешков</td>
+              <td>3 450 тг</td>
+              <td>Эмпанадас</td>
+              <td>6 950 тг</td>
+              <td>Хлебный суп с чесноком</td>
+              <td>2 300 тг</td>
+              <td>Паэлья с морепродуктами</td>
+              <td>5 400 тг</td>
+              <td>Чуррос</td>
+              <td>1 650 тг</td>
         </tr>
         <tr>
-          <td rowspan="2" class="first">Испанская</td>
-          <td>Севиче из гребешков</td>
-          <td>3 450 тг</td>
-          <td>Эмпанадас</td>
-          <td>6 950 тг</td>
-          <td>Хлебный суп с чесноком</td>
-          <td>2 300 тг</td>
-          <td>Паэлья с морепродуктами</td>
-          <td>5 400 тг</td>
-          <td>Чуррос</td>
-          <td>1 650 тг</td>
+              <td>Фасоль с ветчиной</td>
+              <td>3 000 тг</td>
+              <td>Чанфайна</td>
+              <td>4 500 тг</td>
+              <td>Рыбный суп с манными клецками </td>
+              <td>6 750 тг</td>
+              <td>Тортилья картофельная</td>
+              <td>2 300 тг</td>
+              <td>Бунуэлос</td>
+              <td>2 450 тг</td>
         </tr>
         <tr>
-          <td>Фасоль с ветчиной</td>
-          <td>3 000 тг</td>
-          <td>Чанфайна</td>
-          <td>4 500 тг</td>
-          <td>Рыбный суп с манными клецками </td>
-          <td>6 750 тг</td>
-          <td>Тортилья картофельная</td>
-          <td>2 300 тг</td>
-          <td>Бунуэлос</td>
-          <td>2 450 тг</td>
+              <td class="first">Французская</td>
+              <td>Вогезский салат</td>
+              <td>2 300 тг</td>
+              <td>Рийет из курицы</td>
+              <td>5 400 тг</td>
+              <td>Баклажанный крем-суп "Ренуар"</td>
+              <td>3 460 тг</td>
+              <td>Картофель огратен</td>
+              <td>5 745 тг</td>
+              <td>Бриоши</td>
+              <td>2 670 тг</td>
         </tr>
-        <tr>
-          <td class="first">Французская</td>
-          <td>Вогезский салат</td>
-          <td>2 300 тг</td>
-          <td>Рийет из курицы</td>
-          <td>5 400 тг</td>
-          <td>Баклажанный крем-суп "Ренуар"</td>
-          <td>3 460 тг</td>
-          <td>Картофель огратен</td>
-          <td>5 745 тг</td>
-          <td>Бриоши</td>
-          <td>2 670 тг</td>
-        </tr>
+      </tbody>
     </table>
     <h1>Счёт</h1>
     <table>
@@ -131,8 +143,8 @@
         </tr>
     </table>
 
-    <h2>Часто заказываемые блюда:</h2>
-    <ul style="list-style-type:circle;">
+    <h1>Часто заказываемые блюда:</h1>
+    <ul style="list-style-type:circle;" class="hr">
         <li>Салаты</li>
             <ol>
                 <li>Севиче из гребешков</li>
@@ -170,6 +182,7 @@
             <dt>Vegetarian</dt>
             <dd>- excludes meat, poultry, ﬁsh and seafood</dd>
         </dl>
+    <a href="new.html">Нажмите сюда, чтобы увидеть сайт нашего ресторана</a>
         
 </body>
 </html>
