@@ -2,51 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
-  <link rel="new.css">
-  <link type="image/x-icon" rel="shortcut icon" href="https://avatars.mds.yandex.net/i?id=ce68c4f55c0456a8a0ce941fe44c64981c659181-5304992-images-thumbs&n=13">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Restaurant Website</title>
+  <link rel="stylesheet" type="text/css" href="new.css">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-  <header class="header" id="header">
-    <nav class="nav container">
-      <a href="#" class="nav__logo">
-        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/restaurant-logo-design-template-b281aeadaa832c28badd72c1f6c5caad_screen.jpg?ts=1595421543" alt="logo image">
-        Restaurant
-      </a>
-      <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list grid">
-          <li class="nav__item">
-            <a href="#home" class="nav__link">Home</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About us</a>
-          </li>
-          <li class="nav__item">
-            <a href="#popular" class="nav__link">Popular</a>
-          </li>
-          <li class="nav__item">
-            <a href="#recently" class="nav__link">Recently</a>
-          </li>
-        </ul>
-
-        <!--Close button-->
-        <div class="nav__close" id="nav-close">
-          <i class="ri-close-line"></i>
-        </div>
-      </div>
-    </nav>
-
+  <header>
+    <a href="#" class="logo">Gulim's <span>FunFood</span></a>
+    <ul class="navbar" style="display: flex">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="h-icons">
+      <a href="#"><i class='bx bx-search'></i></a>
+      <a href="#"><i class='bx bx-cart'></i></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
   </header>
 
-  <main class="main" id="main">
 
-  </main>
+  <section class="home" id="home">
+    <div class="home-text">
+      <h1><span>Welcome </span>to the World of Taste & Fresh Food</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      <a href="#" class="btn"> Book a Table </a>
+    </div>
+    <div class="home-img">
 
-  <footer></footer>
+    </div>
+  </section>
   
 </body>
 </html>
